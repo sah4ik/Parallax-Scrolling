@@ -1,0 +1,63 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 400vh; /* simulate scrolling */
+	overflow-x: hidden;
+	font-family: 'Segoe UI', sans-serif;
+	background: #000; /* black background */
+  }
+  
+  .layer {
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: -1;
+  }
+  
+  .layer-1 {
+	background-image: url('https://images.unsplash.com/photo-1587825140708-dfaf72ae4e2c');
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  }
+  
+  .layer-1 .content {
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 2em 3em;
+	border-radius: 12px;
+	color: #00f6ff;
+	text-shadow: 0 0 10px #00f6ff, 0 0 20px #00f6ff;
+  }
+  
+  .layer-1 .content h1 {
+	margin: 0;
+	font-size: 3rem;
+	font-weight: bold;
+  }
+  
+  .layer-1 .content p {
+	font-size: 1.2rem;
+	margin-top: 1em;
+	color: #00f6ff;
+  }
+  
+  .layer-2 {
+	background-image: url('https://th.bing.com/th/id/R.57e722d62a84a606d75ce6020c0f0d5a?rik=KQbrJNXT6Gosfg&riu=http%3a%2f%2fwww.baltana.com%2ffiles%2fwallpapers-1%2fCosmos-Wallpaper-02002.jpg&ehk=NLc9IGskhsUueh7rIVBI6ylavoC6CxW1sunOveEXqZs%3d&risl=&pid=ImgRaw&r=0');
+	z-index: 2;
+  }
+  
+  .layer-3 {
+	background-image: url('https://th.bing.com/th/id/R.346a7ce94fb2337136fd71a333e68385?rik=IEyNu7In%2fYXt6g&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fu5A5zTs.jpg&ehk=vjsXCzr0eCzgJf2Dr1Ou1urX9R1x0vf2xZ2rn%2bnA5fs%3d&risl=&pid=ImgRaw&r=0');
+	z-index: 3;
+  }
+  
+  .layer-4 {
+	background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa');
+	z-index: 4;
+  }
+  
